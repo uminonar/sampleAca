@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MypageViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
+class MypageViewController: UIViewController {
     
     var myProf:[NSDictionary]=[]
     var myPosts:[NSDictionary]=[]
@@ -25,23 +25,28 @@ class MypageViewController: UIViewController,UITableViewDelegate, UITableViewDat
         let jsondata = NSData(contentsOfFile: path!)
         
         let jsonArray = (try! NSJSONSerialization.JSONObjectWithData(jsondata!, options: [])) as! NSArray
+        
+        
         for prof in jsonArray{
             myProf.append(prof as! NSDictionary)
         
-        //myPostsにデータをセット {"name":"","portrait":"","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","created":"","diary":"","picture":"","movie":"","sound":"","open":"","support";"","yell":""}
+            //myPostsにデータをセット {"name":"","portrait":"","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","created":"","diary":"","picture":"","movie":"","sound":"","open":"","support";"","yell":""}
             
-        let path = NSBundle.mainBundle().pathForResource("myPosts", ofType: "txt")
-        let jsondata = NSData(contentsOfFile: path!)
+            let path = NSBundle.mainBundle().pathForResource("myPosts", ofType: "txt")
+            let jsondata = NSData(contentsOfFile: path!)
         
-        let jsonArray = (try! NSJSONSerialization.JSONObjectWithData(jsondata!, options: [])) as! NSArray
-        for data in jsonArray{
-            myPosts.append(data as! NSDictionary)
+            let jsonArray = (try! NSJSONSerialization.JSONObjectWithData(jsondata!, options: [])) as! NSArray
             
+            for data in jsonArray{
+                myPosts.append(data as! NSDictionary)
+            
+            }
         }
     }
     
     //行数決定
-    func 
+  
+        
     
     
     //内容表示

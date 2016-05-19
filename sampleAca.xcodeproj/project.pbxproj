@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0020C01CEB130F00A994A4 /* homeCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0020BF1CEB130F00A994A4 /* homeCustomCell.xib */; };
+		0B0020C21CEB34BC00A994A4 /* homeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0020C11CEB34BC00A994A4 /* homeTableViewCell.swift */; };
 		0B0719EE1CE4B87E002D04D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0719ED1CE4B87E002D04D3 /* AppDelegate.swift */; };
 		0B0719F01CE4B87E002D04D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0719EF1CE4B87E002D04D3 /* HomeViewController.swift */; };
 		0B0719F21CE4B87E002D04D3 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0719F11CE4B87E002D04D3 /* MyPageViewController.swift */; };
@@ -20,6 +22,14 @@
 		0B071A221CE4C2D0002D04D3 /* posts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B071A211CE4C2D0002D04D3 /* posts.txt */; };
 		0B071A261CE4D6C8002D04D3 /* myPosts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B071A251CE4D6C8002D04D3 /* myPosts.txt */; };
 		0B071A281CE4D7C1002D04D3 /* myProf.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B071A271CE4D7C1002D04D3 /* myProf.txt */; };
+		0B0DC7D31CEC6FC7008FAC8C /* portrait2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DC7D21CEC6FC7008FAC8C /* portrait2.JPG */; };
+		0B0DC7D51CEC6FCD008FAC8C /* portrait3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DC7D41CEC6FCD008FAC8C /* portrait3.JPG */; };
+		0B1679E11CEB7A3700CAEA74 /* noticeCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1679E01CEB7A3700CAEA74 /* noticeCustomCell.xib */; };
+		0B1679E31CEB7D3D00CAEA74 /* noticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1679E21CEB7D3D00CAEA74 /* noticeTableViewCell.swift */; };
+		0B9E8C0F1CE595790032D710 /* sample2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B9E8C0E1CE595790032D710 /* sample2.JPG */; };
+		0B9E8C111CE5957D0032D710 /* sample3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B9E8C101CE5957D0032D710 /* sample3.JPG */; };
+		0BFE225E1CE56CF200FAEA8A /* sample1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE225D1CE56CF200FAEA8A /* sample1.JPG */; };
+		0BFE22601CE56CFD00FAEA8A /* potrrait1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE225F1CE56CFD00FAEA8A /* potrrait1.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0020BF1CEB130F00A994A4 /* homeCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeCustomCell.xib; sourceTree = "<group>"; };
+		0B0020C11CEB34BC00A994A4 /* homeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTableViewCell.swift; sourceTree = "<group>"; };
 		0B0719EA1CE4B87E002D04D3 /* sampleAca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleAca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0719ED1CE4B87E002D04D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B0719EF1CE4B87E002D04D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +71,14 @@
 		0B071A211CE4C2D0002D04D3 /* posts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = posts.txt; path = ../posts.txt; sourceTree = "<group>"; };
 		0B071A251CE4D6C8002D04D3 /* myPosts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myPosts.txt; sourceTree = "<group>"; };
 		0B071A271CE4D7C1002D04D3 /* myProf.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myProf.txt; sourceTree = "<group>"; };
+		0B0DC7D21CEC6FC7008FAC8C /* portrait2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portrait2.JPG; sourceTree = "<group>"; };
+		0B0DC7D41CEC6FCD008FAC8C /* portrait3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portrait3.JPG; sourceTree = "<group>"; };
+		0B1679E01CEB7A3700CAEA74 /* noticeCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = noticeCustomCell.xib; sourceTree = "<group>"; };
+		0B1679E21CEB7D3D00CAEA74 /* noticeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noticeTableViewCell.swift; sourceTree = "<group>"; };
+		0B9E8C0E1CE595790032D710 /* sample2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.JPG; sourceTree = "<group>"; };
+		0B9E8C101CE5957D0032D710 /* sample3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample3.JPG; sourceTree = "<group>"; };
+		0BFE225D1CE56CF200FAEA8A /* sample1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.JPG; sourceTree = "<group>"; };
+		0BFE225F1CE56CFD00FAEA8A /* potrrait1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potrrait1.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +131,21 @@
 			children = (
 				0B0719ED1CE4B87E002D04D3 /* AppDelegate.swift */,
 				0B0719EF1CE4B87E002D04D3 /* HomeViewController.swift */,
+				0B0020BF1CEB130F00A994A4 /* homeCustomCell.xib */,
+				0B0020C11CEB34BC00A994A4 /* homeTableViewCell.swift */,
 				0B0719F11CE4B87E002D04D3 /* MyPageViewController.swift */,
 				0B071A1F1CE4BFB3002D04D3 /* NoticeViewController.swift */,
+				0B1679E21CEB7D3D00CAEA74 /* noticeTableViewCell.swift */,
+				0B1679E01CEB7A3700CAEA74 /* noticeCustomCell.xib */,
 				0B071A1D1CE4BAAE002D04D3 /* SettingViewController.swift */,
 				0B0719F31CE4B87E002D04D3 /* Main.storyboard */,
 				0B0719F61CE4B87E002D04D3 /* Assets.xcassets */,
+				0B0DC7D41CEC6FCD008FAC8C /* portrait3.JPG */,
+				0B0DC7D21CEC6FC7008FAC8C /* portrait2.JPG */,
+				0B9E8C101CE5957D0032D710 /* sample3.JPG */,
+				0B9E8C0E1CE595790032D710 /* sample2.JPG */,
+				0BFE225D1CE56CF200FAEA8A /* sample1.JPG */,
+				0BFE225F1CE56CFD00FAEA8A /* potrrait1.JPG */,
 				0B0719F81CE4B87E002D04D3 /* LaunchScreen.storyboard */,
 				0B0719FB1CE4B87E002D04D3 /* Info.plist */,
 				0B071A211CE4C2D0002D04D3 /* posts.txt */,
@@ -248,11 +278,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B071A221CE4C2D0002D04D3 /* posts.txt in Resources */,
+				0B0DC7D31CEC6FC7008FAC8C /* portrait2.JPG in Resources */,
 				0B071A281CE4D7C1002D04D3 /* myProf.txt in Resources */,
+				0B9E8C0F1CE595790032D710 /* sample2.JPG in Resources */,
+				0B0020C01CEB130F00A994A4 /* homeCustomCell.xib in Resources */,
+				0BFE22601CE56CFD00FAEA8A /* potrrait1.JPG in Resources */,
+				0B9E8C111CE5957D0032D710 /* sample3.JPG in Resources */,
 				0B0719FA1CE4B87E002D04D3 /* LaunchScreen.storyboard in Resources */,
+				0B0DC7D51CEC6FCD008FAC8C /* portrait3.JPG in Resources */,
 				0B0719F71CE4B87E002D04D3 /* Assets.xcassets in Resources */,
 				0B0719F51CE4B87E002D04D3 /* Main.storyboard in Resources */,
 				0B071A261CE4D6C8002D04D3 /* myPosts.txt in Resources */,
+				0BFE225E1CE56CF200FAEA8A /* sample1.JPG in Resources */,
+				0B1679E11CEB7A3700CAEA74 /* noticeCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +315,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0020C21CEB34BC00A994A4 /* homeTableViewCell.swift in Sources */,
 				0B0719F21CE4B87E002D04D3 /* MyPageViewController.swift in Sources */,
+				0B1679E31CEB7D3D00CAEA74 /* noticeTableViewCell.swift in Sources */,
 				0B0719EE1CE4B87E002D04D3 /* AppDelegate.swift in Sources */,
 				0B0719F01CE4B87E002D04D3 /* HomeViewController.swift in Sources */,
 				0B071A1E1CE4BAAE002D04D3 /* SettingViewController.swift in Sources */,
@@ -506,6 +546,7 @@
 				0B071A161CE4B87E002D04D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B071A171CE4B87E002D04D3 /* Build configuration list for PBXNativeTarget "sampleAcaTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +555,7 @@
 				0B071A191CE4B87E002D04D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B071A1A1CE4B87E002D04D3 /* Build configuration list for PBXNativeTarget "sampleAcaUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +564,7 @@
 				0B071A1C1CE4B87E002D04D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

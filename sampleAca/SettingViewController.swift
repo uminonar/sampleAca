@@ -9,6 +9,10 @@
 import UIKit
 
 class SettingViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
+    
+    
+    var setteingList = ["アカウント","ヘルプ","使い方","ログアウト","利用規約"]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +20,27 @@ class SettingViewController: UIViewController,UITableViewDataSource,UITableViewD
         // Do any additional setup after loading the view.
     }
 
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return setteingList.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        var cell = UITableViewCell(style: .Default, reuseIdentifier: "settingCell")
+        
+        cell.textLabel?.textColor = UIColor.brownColor()
+        cell.accessoryType = .DisclosureIndicator
+        
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        performSegueWithIdentifier("", sender: nil)
+        //segueで条件分岐？
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

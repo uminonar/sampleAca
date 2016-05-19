@@ -1,5 +1,5 @@
 [
-{"name":"","portrait":"","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","created":"","diary":"","picture":"","movie":"","sound":"","open":"","support";"","yell":""},
-{"name":"","portrait":"","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","created":"","diary":"","picture":"","movie":"","sound":"","open":"","support";"","yell":""},
-{"name":"","portrait":"","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","created":"","diary":"","picture":"","movie":"","sound":"","open":"","support";"","yell":""}
+{"name":"riho","selfee"":"selfee.JPG","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","created":"","diary":"","picture":"","movie":"","sound":"","open":"","support";"","yell":""},
+{"name":"riho","selfee":"selfee.JPG","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","created":"","diary":"","picture":"","movie":"","sound":"","open":"","support";"","yell":""},
+{"name":"riho","selfee":"selfee.JPG","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","created":"","diary":"","picture":"","movie":"","sound":"","open":"","support";"","yell":""}
 ]
