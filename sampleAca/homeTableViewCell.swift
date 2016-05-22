@@ -16,8 +16,14 @@ class homeTableViewCell: UITableViewCell {
     
     @IBOutlet weak var homeCreated: UILabel!
     
-    @IBOutlet weak var homeTextView: UITextView!
+    @IBOutlet weak var homeWhen: UILabel!
     
+    @IBOutlet weak var homeWhere: UILabel!
+    
+    @IBOutlet weak var homeWho: UILabel!
+    
+    @IBOutlet weak var homeDiary: UITextView!
+
     @IBOutlet weak var homeMore: UIButton!
     
     @IBOutlet weak var homeImageView: UIImageView!
@@ -30,11 +36,30 @@ class homeTableViewCell: UITableViewCell {
     
     @IBOutlet weak var homeYellNum: UILabel!
     
+    @IBOutlet weak var settingBtn: UIButton!
     
     override func awakeFromNib() {
   
         super.awakeFromNib()
         // Initialization code
+//        let trash = FAKFontAwesome.trashIconWithSize(20)
+        // 下記でアイコンの色も変えられます
+        // trash.addAttribute(NSForegroundColorAttributeName, value: UIColor.whiteColor())
+//        let trashImage = trash.imageWithSize(CGSizeMake(20, 20))
+        
+//        homeSuppImg.image = trashImage
+//        let homeSuppImg.imageWithSize =
+        
+        let heart = FAKFontAwesome.heartOIconWithSize(15)
+        let heartImage = heart.imageWithSize(CGSizeMake(15, 15))
+
+        homeSuppImg.image = heartImage
+        
+    
+        let commentO = FAKFontAwesome.commentOIconWithSize(15)
+        let commentImage = commentO.imageWithSize(CGSizeMake(15, 15))
+        homeYellImg.image = commentImage
+        
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
@@ -51,22 +76,8 @@ class homeTableViewCell: UITableViewCell {
         
     }
     
-    @IBAction func homeSettingBtn(sender: UIButton) {
-        
-        var settingController = UIAlertController(title: "問題を報告する", message: "どんな問題かお知らせください。", preferredStyle: .ActionSheet)
-        settingController.addAction(UIAlertAction(title: "被害者を攻撃する内容を含んでいます", style: .Default, handler: { action in print("OK!")}))
-        
-            settingController.addAction(UIAlertAction(title: "不適切な画像を含んでいます", style: .Default, handler: { action in print("OK!")}))
-        
-            settingController.addAction(UIAlertAction(title: "スパムです", style: .Default, handler: { action in print("OK!")}))
-        
-            settingController.addAction(UIAlertAction(title: "キャンセル", style: .Cancel, handler: { action in
-                print("cancel")
-            }))
-        
-       presentViewController(settingController, animated: true, completion: nil)
-        
-       // presentViewControllerは使えない？
+    
+
         
         
         
@@ -80,4 +91,4 @@ class homeTableViewCell: UITableViewCell {
     
     
     
-}
+

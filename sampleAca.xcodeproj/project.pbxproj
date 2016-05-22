@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B0020C01CEB130F00A994A4 /* homeCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0020BF1CEB130F00A994A4 /* homeCustomCell.xib */; };
 		0B0020C21CEB34BC00A994A4 /* homeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0020C11CEB34BC00A994A4 /* homeTableViewCell.swift */; };
+		0B01E60A1CEE1EC50034E2F2 /* doc1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B01E6091CEE1EC50034E2F2 /* doc1.JPG */; };
 		0B0719EE1CE4B87E002D04D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0719ED1CE4B87E002D04D3 /* AppDelegate.swift */; };
 		0B0719F01CE4B87E002D04D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0719EF1CE4B87E002D04D3 /* HomeViewController.swift */; };
 		0B0719F21CE4B87E002D04D3 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0719F11CE4B87E002D04D3 /* MyPageViewController.swift */; };
@@ -22,14 +23,25 @@
 		0B071A221CE4C2D0002D04D3 /* posts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B071A211CE4C2D0002D04D3 /* posts.txt */; };
 		0B071A261CE4D6C8002D04D3 /* myPosts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B071A251CE4D6C8002D04D3 /* myPosts.txt */; };
 		0B071A281CE4D7C1002D04D3 /* myProf.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B071A271CE4D7C1002D04D3 /* myProf.txt */; };
-		0B0DC7D31CEC6FC7008FAC8C /* portrait2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DC7D21CEC6FC7008FAC8C /* portrait2.JPG */; };
 		0B0DC7D51CEC6FCD008FAC8C /* portrait3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DC7D41CEC6FCD008FAC8C /* portrait3.JPG */; };
 		0B1679E11CEB7A3700CAEA74 /* noticeCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1679E01CEB7A3700CAEA74 /* noticeCustomCell.xib */; };
 		0B1679E31CEB7D3D00CAEA74 /* noticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1679E21CEB7D3D00CAEA74 /* noticeTableViewCell.swift */; };
-		0B9E8C0F1CE595790032D710 /* sample2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B9E8C0E1CE595790032D710 /* sample2.JPG */; };
-		0B9E8C111CE5957D0032D710 /* sample3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B9E8C101CE5957D0032D710 /* sample3.JPG */; };
-		0BFE225E1CE56CF200FAEA8A /* sample1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE225D1CE56CF200FAEA8A /* sample1.JPG */; };
-		0BFE22601CE56CFD00FAEA8A /* potrrait1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BFE225F1CE56CFD00FAEA8A /* potrrait1.JPG */; };
+		0B99E68F1CEE08D70087EBC2 /* doc3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B99E68E1CEE08D70087EBC2 /* doc3.JPG */; };
+		0B99E6911CEE0F0D0087EBC2 /* portrait1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B99E6901CEE0F0D0087EBC2 /* portrait1.JPG */; };
+		0B99E6931CEE10390087EBC2 /* portrait2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B99E6921CEE10390087EBC2 /* portrait2.JPG */; };
+		0BCE1EE01CF160D70055C737 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE1EDF1CF160D70055C737 /* DetailViewController.swift */; };
+		0BCE1EE21CF162CE0055C737 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE1EE11CF162CE0055C737 /* AddViewController.swift */; };
+		0BCE1EE41CF176520055C737 /* suppImg1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE1EE31CF176520055C737 /* suppImg1.JPG */; };
+		0BCE1EE61CF176580055C737 /* suppImg2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE1EE51CF176580055C737 /* suppImg2.JPG */; };
+		0BCE1EE81CF1765C0055C737 /* suppImg3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE1EE71CF1765C0055C737 /* suppImg3.JPG */; };
+		0BCE1EEA1CF176610055C737 /* suppImg4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE1EE91CF176610055C737 /* suppImg4.JPG */; };
+		0BCE1EEC1CF176650055C737 /* suppImg5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE1EEB1CF176650055C737 /* suppImg5.JPG */; };
+		0BCE1EEE1CF1766A0055C737 /* suppImg6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE1EED1CF1766A0055C737 /* suppImg6.JPG */; };
+		0BCE1EF01CF1794F0055C737 /* yellImg4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE1EEF1CF1794F0055C737 /* yellImg4.JPG */; };
+		0BCE1EF21CF179BA0055C737 /* bgImg.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE1EF11CF179BA0055C737 /* bgImg.JPG */; };
+		0BCE1EF41CF17CA70055C737 /* myPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE1EF31CF17CA70055C737 /* myPageTableViewCell.swift */; };
+		0BCE1EF61CF17D2C0055C737 /* myPageCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE1EF51CF17D2C0055C737 /* myPageCustomCell.xib */; };
+		30A8F56027839C69D6CADA0B /* libPods-sampleAca.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D88391DC3CA72F6F8C822A3 /* libPods-sampleAca.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +64,7 @@
 /* Begin PBXFileReference section */
 		0B0020BF1CEB130F00A994A4 /* homeCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeCustomCell.xib; sourceTree = "<group>"; };
 		0B0020C11CEB34BC00A994A4 /* homeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTableViewCell.swift; sourceTree = "<group>"; };
+		0B01E6091CEE1EC50034E2F2 /* doc1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doc1.JPG; sourceTree = "<group>"; };
 		0B0719EA1CE4B87E002D04D3 /* sampleAca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleAca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0719ED1CE4B87E002D04D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B0719EF1CE4B87E002D04D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -71,14 +84,30 @@
 		0B071A211CE4C2D0002D04D3 /* posts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = posts.txt; path = ../posts.txt; sourceTree = "<group>"; };
 		0B071A251CE4D6C8002D04D3 /* myPosts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myPosts.txt; sourceTree = "<group>"; };
 		0B071A271CE4D7C1002D04D3 /* myProf.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myProf.txt; sourceTree = "<group>"; };
-		0B0DC7D21CEC6FC7008FAC8C /* portrait2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portrait2.JPG; sourceTree = "<group>"; };
 		0B0DC7D41CEC6FCD008FAC8C /* portrait3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portrait3.JPG; sourceTree = "<group>"; };
+		0B0E68E81CEDDAB700B4E036 /* sampleAca-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sampleAca-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B0E68E91CEDDAB700B4E036 /* sampleAcaTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sampleAcaTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B0E68EA1CEDDAB700B4E036 /* sampleAcaUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sampleAcaUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		0B1679E01CEB7A3700CAEA74 /* noticeCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = noticeCustomCell.xib; sourceTree = "<group>"; };
 		0B1679E21CEB7D3D00CAEA74 /* noticeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noticeTableViewCell.swift; sourceTree = "<group>"; };
-		0B9E8C0E1CE595790032D710 /* sample2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.JPG; sourceTree = "<group>"; };
-		0B9E8C101CE5957D0032D710 /* sample3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample3.JPG; sourceTree = "<group>"; };
-		0BFE225D1CE56CF200FAEA8A /* sample1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.JPG; sourceTree = "<group>"; };
-		0BFE225F1CE56CFD00FAEA8A /* potrrait1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potrrait1.JPG; sourceTree = "<group>"; };
+		0B99E68E1CEE08D70087EBC2 /* doc3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doc3.JPG; sourceTree = "<group>"; };
+		0B99E6901CEE0F0D0087EBC2 /* portrait1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portrait1.JPG; sourceTree = "<group>"; };
+		0B99E6921CEE10390087EBC2 /* portrait2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portrait2.JPG; sourceTree = "<group>"; };
+		0BCE1EDF1CF160D70055C737 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0BCE1EE11CF162CE0055C737 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		0BCE1EE31CF176520055C737 /* suppImg1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suppImg1.JPG; sourceTree = "<group>"; };
+		0BCE1EE51CF176580055C737 /* suppImg2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suppImg2.JPG; sourceTree = "<group>"; };
+		0BCE1EE71CF1765C0055C737 /* suppImg3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suppImg3.JPG; sourceTree = "<group>"; };
+		0BCE1EE91CF176610055C737 /* suppImg4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suppImg4.JPG; sourceTree = "<group>"; };
+		0BCE1EEB1CF176650055C737 /* suppImg5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suppImg5.JPG; sourceTree = "<group>"; };
+		0BCE1EED1CF1766A0055C737 /* suppImg6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suppImg6.JPG; sourceTree = "<group>"; };
+		0BCE1EEF1CF1794F0055C737 /* yellImg4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellImg4.JPG; sourceTree = "<group>"; };
+		0BCE1EF11CF179BA0055C737 /* bgImg.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgImg.JPG; sourceTree = "<group>"; };
+		0BCE1EF31CF17CA70055C737 /* myPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPageTableViewCell.swift; sourceTree = "<group>"; };
+		0BCE1EF51CF17D2C0055C737 /* myPageCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myPageCustomCell.xib; sourceTree = "<group>"; };
+		27E37122739A78FE8AF38DB2 /* Pods-sampleAca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleAca.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sampleAca/Pods-sampleAca.debug.xcconfig"; sourceTree = "<group>"; };
+		5441D094F25344696FEC3B5A /* Pods-sampleAca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleAca.release.xcconfig"; path = "Pods/Target Support Files/Pods-sampleAca/Pods-sampleAca.release.xcconfig"; sourceTree = "<group>"; };
+		6D88391DC3CA72F6F8C822A3 /* libPods-sampleAca.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sampleAca.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A8F56027839C69D6CADA0B /* libPods-sampleAca.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +143,11 @@
 				0B071A031CE4B87E002D04D3 /* sampleAcaTests */,
 				0B071A0E1CE4B87E002D04D3 /* sampleAcaUITests */,
 				0B0719EB1CE4B87E002D04D3 /* Products */,
+				0B0E68E81CEDDAB700B4E036 /* sampleAca-Bridging-Header.h */,
+				0B0E68E91CEDDAB700B4E036 /* sampleAcaTests-Bridging-Header.h */,
+				0B0E68EA1CEDDAB700B4E036 /* sampleAcaUITests-Bridging-Header.h */,
+				AA2AF2890C738E4963901122 /* Pods */,
+				ABDB447C2A9B397F56A14B8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,21 +166,32 @@
 			children = (
 				0B0719ED1CE4B87E002D04D3 /* AppDelegate.swift */,
 				0B0719EF1CE4B87E002D04D3 /* HomeViewController.swift */,
-				0B0020BF1CEB130F00A994A4 /* homeCustomCell.xib */,
 				0B0020C11CEB34BC00A994A4 /* homeTableViewCell.swift */,
+				0B0020BF1CEB130F00A994A4 /* homeCustomCell.xib */,
 				0B0719F11CE4B87E002D04D3 /* MyPageViewController.swift */,
+				0BCE1EF31CF17CA70055C737 /* myPageTableViewCell.swift */,
+				0BCE1EF51CF17D2C0055C737 /* myPageCustomCell.xib */,
+				0BCE1EE11CF162CE0055C737 /* AddViewController.swift */,
 				0B071A1F1CE4BFB3002D04D3 /* NoticeViewController.swift */,
 				0B1679E21CEB7D3D00CAEA74 /* noticeTableViewCell.swift */,
 				0B1679E01CEB7A3700CAEA74 /* noticeCustomCell.xib */,
 				0B071A1D1CE4BAAE002D04D3 /* SettingViewController.swift */,
+				0BCE1EDF1CF160D70055C737 /* DetailViewController.swift */,
 				0B0719F31CE4B87E002D04D3 /* Main.storyboard */,
 				0B0719F61CE4B87E002D04D3 /* Assets.xcassets */,
+				0BCE1EF11CF179BA0055C737 /* bgImg.JPG */,
+				0BCE1EEF1CF1794F0055C737 /* yellImg4.JPG */,
+				0BCE1EED1CF1766A0055C737 /* suppImg6.JPG */,
+				0BCE1EEB1CF176650055C737 /* suppImg5.JPG */,
+				0BCE1EE91CF176610055C737 /* suppImg4.JPG */,
+				0BCE1EE71CF1765C0055C737 /* suppImg3.JPG */,
+				0BCE1EE51CF176580055C737 /* suppImg2.JPG */,
+				0BCE1EE31CF176520055C737 /* suppImg1.JPG */,
+				0B01E6091CEE1EC50034E2F2 /* doc1.JPG */,
+				0B99E68E1CEE08D70087EBC2 /* doc3.JPG */,
+				0B99E6901CEE0F0D0087EBC2 /* portrait1.JPG */,
+				0B99E6921CEE10390087EBC2 /* portrait2.JPG */,
 				0B0DC7D41CEC6FCD008FAC8C /* portrait3.JPG */,
-				0B0DC7D21CEC6FC7008FAC8C /* portrait2.JPG */,
-				0B9E8C101CE5957D0032D710 /* sample3.JPG */,
-				0B9E8C0E1CE595790032D710 /* sample2.JPG */,
-				0BFE225D1CE56CF200FAEA8A /* sample1.JPG */,
-				0BFE225F1CE56CFD00FAEA8A /* potrrait1.JPG */,
 				0B0719F81CE4B87E002D04D3 /* LaunchScreen.storyboard */,
 				0B0719FB1CE4B87E002D04D3 /* Info.plist */,
 				0B071A211CE4C2D0002D04D3 /* posts.txt */,
@@ -173,6 +219,23 @@
 			path = sampleAcaUITests;
 			sourceTree = "<group>";
 		};
+		AA2AF2890C738E4963901122 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27E37122739A78FE8AF38DB2 /* Pods-sampleAca.debug.xcconfig */,
+				5441D094F25344696FEC3B5A /* Pods-sampleAca.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABDB447C2A9B397F56A14B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D88391DC3CA72F6F8C822A3 /* libPods-sampleAca.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B071A141CE4B87E002D04D3 /* Build configuration list for PBXNativeTarget "sampleAca" */;
 			buildPhases = (
+				41AA7D64D3F115C7AC4BC470 /* Check Pods Manifest.lock */,
 				0B0719E61CE4B87E002D04D3 /* Sources */,
 				0B0719E71CE4B87E002D04D3 /* Frameworks */,
 				0B0719E81CE4B87E002D04D3 /* Resources */,
+				DD1B8BB7CDBA3897DBC45875 /* Embed Pods Frameworks */,
+				3A060A8913809299AE2211D4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,18 +344,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B071A221CE4C2D0002D04D3 /* posts.txt in Resources */,
-				0B0DC7D31CEC6FC7008FAC8C /* portrait2.JPG in Resources */,
+				0BCE1EE41CF176520055C737 /* suppImg1.JPG in Resources */,
+				0BCE1EF01CF1794F0055C737 /* yellImg4.JPG in Resources */,
 				0B071A281CE4D7C1002D04D3 /* myProf.txt in Resources */,
-				0B9E8C0F1CE595790032D710 /* sample2.JPG in Resources */,
+				0BCE1EEC1CF176650055C737 /* suppImg5.JPG in Resources */,
+				0BCE1EF61CF17D2C0055C737 /* myPageCustomCell.xib in Resources */,
+				0BCE1EE81CF1765C0055C737 /* suppImg3.JPG in Resources */,
+				0BCE1EE61CF176580055C737 /* suppImg2.JPG in Resources */,
+				0B01E60A1CEE1EC50034E2F2 /* doc1.JPG in Resources */,
 				0B0020C01CEB130F00A994A4 /* homeCustomCell.xib in Resources */,
-				0BFE22601CE56CFD00FAEA8A /* potrrait1.JPG in Resources */,
-				0B9E8C111CE5957D0032D710 /* sample3.JPG in Resources */,
 				0B0719FA1CE4B87E002D04D3 /* LaunchScreen.storyboard in Resources */,
+				0BCE1EEA1CF176610055C737 /* suppImg4.JPG in Resources */,
+				0BCE1EEE1CF1766A0055C737 /* suppImg6.JPG in Resources */,
 				0B0DC7D51CEC6FCD008FAC8C /* portrait3.JPG in Resources */,
+				0B99E68F1CEE08D70087EBC2 /* doc3.JPG in Resources */,
 				0B0719F71CE4B87E002D04D3 /* Assets.xcassets in Resources */,
+				0BCE1EF21CF179BA0055C737 /* bgImg.JPG in Resources */,
 				0B0719F51CE4B87E002D04D3 /* Main.storyboard in Resources */,
+				0B99E6931CEE10390087EBC2 /* portrait2.JPG in Resources */,
 				0B071A261CE4D6C8002D04D3 /* myPosts.txt in Resources */,
-				0BFE225E1CE56CF200FAEA8A /* sample1.JPG in Resources */,
+				0B99E6911CEE0F0D0087EBC2 /* portrait1.JPG in Resources */,
 				0B1679E11CEB7A3700CAEA74 /* noticeCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +384,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A060A8913809299AE2211D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sampleAca/Pods-sampleAca-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41AA7D64D3F115C7AC4BC470 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1B8BB7CDBA3897DBC45875 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sampleAca/Pods-sampleAca-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B0719E61CE4B87E002D04D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -317,11 +439,14 @@
 			files = (
 				0B0020C21CEB34BC00A994A4 /* homeTableViewCell.swift in Sources */,
 				0B0719F21CE4B87E002D04D3 /* MyPageViewController.swift in Sources */,
+				0BCE1EF41CF17CA70055C737 /* myPageTableViewCell.swift in Sources */,
+				0BCE1EE21CF162CE0055C737 /* AddViewController.swift in Sources */,
 				0B1679E31CEB7D3D00CAEA74 /* noticeTableViewCell.swift in Sources */,
 				0B0719EE1CE4B87E002D04D3 /* AppDelegate.swift in Sources */,
 				0B0719F01CE4B87E002D04D3 /* HomeViewController.swift in Sources */,
 				0B071A1E1CE4BAAE002D04D3 /* SettingViewController.swift in Sources */,
 				0B071A201CE4BFB3002D04D3 /* NoticeViewController.swift in Sources */,
+				0BCE1EE01CF160D70055C737 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,23 +586,30 @@
 		};
 		0B071A151CE4B87E002D04D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E37122739A78FE8AF38DB2 /* Pods-sampleAca.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = sampleAca/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihookubo.sampleAca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sampleAca-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		0B071A161CE4B87E002D04D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5441D094F25344696FEC3B5A /* Pods-sampleAca.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = sampleAca/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihookubo.sampleAca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sampleAca-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,10 +617,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = sampleAcaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihookubo.sampleAcaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sampleAcaTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleAca.app/sampleAca";
 			};
 			name = Debug;
@@ -497,10 +632,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = sampleAcaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihookubo.sampleAcaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sampleAcaTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleAca.app/sampleAca";
 			};
 			name = Release;
@@ -508,10 +645,13 @@
 		0B071A1B1CE4B87E002D04D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = sampleAcaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihookubo.sampleAcaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sampleAcaUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_TARGET_NAME = sampleAca;
 			};
 			name = Debug;
@@ -519,10 +659,12 @@
 		0B071A1C1CE4B87E002D04D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = sampleAcaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihookubo.sampleAcaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sampleAcaUITests-Bridging-Header.h";
 				TEST_TARGET_NAME = sampleAca;
 			};
 			name = Release;

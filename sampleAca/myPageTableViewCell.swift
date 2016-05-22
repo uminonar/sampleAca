@@ -2,7 +2,7 @@
 //  myPageTableViewCell.swift
 //  sampleAca
 //
-//  Created by RIho OKubo on 2016/05/17.
+//  Created by RIho OKubo on 2016/05/22.
 //  Copyright © 2016年 RIho OKubo. All rights reserved.
 //
 

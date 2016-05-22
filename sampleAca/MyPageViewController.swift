@@ -10,16 +10,29 @@ import UIKit
 
 class MypageViewController: UIViewController {
     
+    @IBOutlet weak var myPageTableView: UITableView!
+    
+    // ボタンを用意
+    var addBtn: UIBarButtonItem!
+    
     var myProf:[NSDictionary]=[]
     var myPosts:[NSDictionary]=[]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        myPageTableView.registerNib(UINib(nibName: "myPageCustomCell", bundle: nil), forCellReuseIdentifier: "myPageCustomCell")
+        
+        // タイトルを付けておきましょう
+        self.title = "MyPage"
+        
+        // addBtnを設置
+        addBtn = UIBarButtonItem(barButtonSystemItem: .Compose, target: self, action: "onClick")
+        self.navigationItem.rightBarButtonItem = addBtn
     }
     
     override func viewWillAppear(animated: Bool) {
-        //myProfにデータをセット　{"name":"","selfImage":"","intro";"","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","bgImage":""}
+        //myProfにデータをセット　{"name":"","selfee":"","intro";"","suppImg":"","suppNumber":"","yellImg":"","yellNumber":"","bgImg":""}
         
         let path = NSBundle.mainBundle().pathForResource("myProf", ofType: "txt")
         let jsondata = NSData(contentsOfFile: path!)
@@ -45,6 +58,8 @@ class MypageViewController: UIViewController {
     }
     
     //行数決定
+    
+    
   
         
     
@@ -52,6 +67,10 @@ class MypageViewController: UIViewController {
     //内容表示
     
     
+    func onClick() {
+        let second = AddViewController()
+        self.navigationController?.pushViewController(second, animated: true)
+    }
     
     
 
@@ -59,6 +78,8 @@ class MypageViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
 
 
 }

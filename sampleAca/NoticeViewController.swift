@@ -9,21 +9,37 @@
 import UIKit
 
 class NoticeViewController: UIViewController{
+    
+    // ボタンを用意
+    var addBtn: UIBarButtonItem!
 
     @IBOutlet weak var noticeTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         noticeTableView.registerNib(UINib(nibName: "SnowboardCell", bundle: nil), forCellReuseIdentifier: "noticeCell")
-        // Do any additional setup after loading the view.
+        
+        // タイトルを付けておきましょう
+        self.title = "Notice"
+        
+        // addBtnを設置
+        addBtn = UIBarButtonItem(barButtonSystemItem: .Compose, target: self, action: "onClick")
+        self.navigationItem.rightBarButtonItem = addBtn
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
         
     }
     
-    
+    func onClick() {
+        let second = AddViewController()
+        self.navigationController?.pushViewController(second, animated: true)
+    }
+
     
     
 

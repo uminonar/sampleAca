@@ -1,3 +1,3 @@
 
-{"name":"","selfImage":"","intro";"","suppImage":"","suppNumber":"","yellImage":"","yellNumber":"","bgImage":""}
+{"name":"uminonar","selfee":"portrait1.JPG","intro";"慶應のメディアデザイン研究科に通っています。現在２年目で博士課程への進学を希望しています。ハラスメント防止委員会にも何度も相談していますがダメです... 途方にくれる。。。","suppImg1":"suppImg1.JPG","suppImg2":"suppImg2.JPG","suppImg3":"suppImg3.JPG","suppImg4":"suppImg4.JPG","suppImg5":"suppImg5.JPG","suppImage6":"suppImg6.JPG","suppNumber":"12","yellImage1":"suppImg1.JPG","yellImg2":"suppImg4.JPG","yellImg3":"suppImg6.JPG","yellImg4":"yellImg4.JPG","yellNumber":"8","bgImg":"bgImg.JPG"}
 

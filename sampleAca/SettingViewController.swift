@@ -10,6 +10,9 @@ import UIKit
 
 class SettingViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
     
+    // ボタンを用意
+    var addBtn: UIBarButtonItem!
+    
     
     var setteingList = ["アカウント","ヘルプ","使い方","ログアウト","利用規約"]
     
@@ -17,7 +20,12 @@ class SettingViewController: UIViewController,UITableViewDataSource,UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // タイトルを付けておきましょう
+        self.title = "Setting"
+        
+        // addBtnを設置
+        addBtn = UIBarButtonItem(barButtonSystemItem: .Compose, target: self, action: "onClick")
+        self.navigationItem.rightBarButtonItem = addBtn
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,6 +54,11 @@ class SettingViewController: UIViewController,UITableViewDataSource,UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
+    func onClick() {
+        let second = AddViewController()
+        self.navigationController?.pushViewController(second, animated: true)
+    }
+
 
     /*
     // MARK: - Navigation
