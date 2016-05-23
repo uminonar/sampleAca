@@ -10,6 +10,10 @@ import UIKit
 
 class myPageTableViewCell: UITableViewCell {
 
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -77,10 +77,7 @@
             
             return cell
             
-            //fontawesome利用
-            //cell.homeSuppImg.image = UIImage(named: )
-            //cell.homeYellImg.image = UIImage(named: )
-            //
+           
             
             
         }
@@ -103,10 +100,11 @@
         
         // addBtnをタップしたときのアクション
         func onClick() {
-            let second = AddViewController()
+            
+            let second = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("AddViewController") as UIViewController
+            
             self.navigationController?.pushViewController(second, animated: true)
         }
-        
         
         
         override func didReceiveMemoryWarning() {

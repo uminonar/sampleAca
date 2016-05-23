@@ -58,18 +58,18 @@ class MypageViewController: UIViewController {
     }
     
     //行数決定
-    
-    
-  
-        
-    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return myPosts.count
+    }
     
     //内容表示
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->UITableViewCell{
+        
+        var cell = tableView.dequeueReusableCellWithIdentifier("myPageCustomCell", forIndexPath: indexPath) as! myPageTableViewCell
     
-    
-    func onClick() {
-        let second = AddViewController()
-        self.navigationController?.pushViewController(second, animated: true)
+
+    return cell
+        
     }
     
     
