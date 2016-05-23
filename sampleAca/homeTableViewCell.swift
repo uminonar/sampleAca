@@ -11,6 +11,8 @@ import UIKit
 class homeTableViewCell: UITableViewCell {
     
     @IBOutlet weak var homePortrait: UIImageView!
+    
+    @IBOutlet weak var homeUniversity: UILabel!
 
     @IBOutlet weak var homeName: UIButton!
     
@@ -21,6 +23,8 @@ class homeTableViewCell: UITableViewCell {
     @IBOutlet weak var homeWhere: UILabel!
     
     @IBOutlet weak var homeWho: UILabel!
+    
+    @IBOutlet weak var homeVolume: UIImageView!
     
     @IBOutlet weak var homeDiary: UITextView!
 
@@ -59,6 +63,12 @@ class homeTableViewCell: UITableViewCell {
         let commentO = FAKFontAwesome.commentOIconWithSize(15)
         let commentImage = commentO.imageWithSize(CGSizeMake(15, 15))
         homeYellImg.image = commentImage
+        
+        
+        
+        let volume = FAKFontAwesome.volumeUpIconWithSize(18)
+        let volumeImage = volume.imageWithSize(CGSizeMake(18, 18))
+        homeVolume.image = volumeImage
         
     }
 

@@ -75,6 +75,9 @@
             cell.homeWhere.text = posts[indexPath.row]["where"] as! String
             cell.homeWho.text = posts[indexPath.row]["who"] as! String
             
+            cell.homeUniversity.text = posts[indexPath.row]["university"] as! String
+            
+            
             return cell
             
            
@@ -84,11 +87,11 @@
         
         func tappedSettingBtn(){
             var settingController = UIAlertController(title: "問題を報告する", message: "どんな問題かお知らせください。", preferredStyle: .ActionSheet)
-            settingController.addAction(UIAlertAction(title: "被害者を攻撃しています", style: .Default, handler: { action in print("OK!")}))
+            settingController.addAction(UIAlertAction(title: "被害者にとって不快な内容です", style: .Default, handler: { action in print("OK!")}))
             
-            settingController.addAction(UIAlertAction(title: "アカハラと無関係な内容や画像です", style: .Default, handler: { action in print("OK!")}))
+            settingController.addAction(UIAlertAction(title: "アカハラと無関係な内容です", style: .Default, handler: { action in print("OK!")}))
             
-            settingController.addAction(UIAlertAction(title: "証拠保全と無関係な名誉毀損です", style: .Default, handler: { action in print("OK!")}))
+            settingController.addAction(UIAlertAction(title: "証拠と無関係な名誉毀損です", style: .Default, handler: { action in print("OK!")}))
             
             settingController.addAction(UIAlertAction(title: "キャンセル", style: .Cancel, handler: { action in
                 print("cancel")
