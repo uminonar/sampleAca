@@ -10,17 +10,16 @@ import UIKit
 
 class AddViewController: UIViewController {
     
+    @IBOutlet weak var bottomView: UIView!
+    
+//    @IBAction func unwindToTop(segue: UIStoryboardSegue) {}
+    
     @IBOutlet var addView: UIView!
     
     // View動的追加用変数
-    var whenDatePicker = UIDatePicker()
-
-    var whenTimePicker = UIDatePicker()
-    
-    var bView = UIView(frame: CGRectMake(0, 0, 100, 100))
     var aView = UIView(frame: CGRectMake(0, 0, 100, 100))
     let myBoundSize: CGSize = UIScreen.mainScreen().bounds.size
-    //var openFlag = false
+   
     
     var add = ["name":"uminonar","selfee":"portrail1.JPG" ]
     
@@ -70,42 +69,13 @@ class AddViewController: UIViewController {
      
         addName.text = add["name"]
         addSelfee.image = UIImage(named: "portrait1.JPG")
+        bottomView.frame = CGRectMake(0, myBoundSize.height-428, 320, 428)
         
-        self.bView = UIView(frame: CGRectMake(0,myBoundSize.height,myBoundSize.width,myBoundSize.height))
-        
-        self.bView.backgroundColor = UIColor.lightGrayColor()
-        
-        self.aView = UIView(frame: CGRectMake(0,myBoundSize.height,myBoundSize.width,270))
-        
-        self.aView.backgroundColor = UIColor.whiteColor()
-        
-     //        UIColor color = [UIColor .lightGrayColor()]
-     //        UIColor aColor = [color colorWithAlphaComponent:0.5];
-        
-        
-        whenDatePicker.maximumDate = NSDate()
-        
-        whenDatePicker.frame = CGRectMake(0,0,myBoundSize.width-100,270)
-//        whenDatePicker.datePickerMode = 
-        
-        
-        
-        whenTimePicker.frame = CGRectMake(myBoundSize.width-100,0,100,270)
-        
-        
-        let df = NSDateFormatter()
-    
-        df.dateFormat = "yyyy年MM月dd日"
-        
-        
-        
-        
-        self.view.addSubview(aView)
-        aView.addSubview(whenDatePicker)
-        aView.addSubview(whenTimePicker)
-    
-        
+
     }
+    
+    
+    
     
     @IBAction func tapRecord(sender: UIButton) {
         
@@ -126,26 +96,21 @@ class AddViewController: UIViewController {
 
     @IBAction func addWhenField(sender: UITextField) {
         print("addwhen")
+       // float labely = bottomView.frame.origin.y;
         
-        UIView.animateWithDuration(0.1, animations: { () -> Void in
+        UIView.animateWithDuration(1, animations: { () -> Void in
+            
+            self.bottomView.frame = CGRectMake(0, self.myBoundSize.height+212, self.myBoundSize.width, 428)
             
             
-            self.bView.frame = CGRectMake(0,0,self.myBoundSize.width,self.myBoundSize.height)
-            
+            }, completion: { finished in
+                print("bottomViewを動かしました")
         })
+
 
         
         
-        UIView.animateWithDuration(0.3, animations: { () -> Void in
-            
-           
-            self.aView.frame = CGRectMake(0,self.myBoundSize.height-270,self.myBoundSize.width,270)
-            
-            
-            
-        
-        })
-    }
+            }
     
     @IBAction func addWhere(sender: UITextField) {
         print("addWhere")
@@ -161,6 +126,13 @@ class AddViewController: UIViewController {
     
     
 
+    @IBAction func openSwitch(sender: UISwitch) {
+        if sender.on == true { //== trueはなくても良い
+            openness.text = "公開"
+        }else{
+            openness.text = "非公開"
+        }
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

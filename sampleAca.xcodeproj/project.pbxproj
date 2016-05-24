@@ -23,6 +23,7 @@
 		0B071A221CE4C2D0002D04D3 /* posts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B071A211CE4C2D0002D04D3 /* posts.txt */; };
 		0B071A261CE4D6C8002D04D3 /* myPosts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B071A251CE4D6C8002D04D3 /* myPosts.txt */; };
 		0B071A281CE4D7C1002D04D3 /* myProf.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B071A271CE4D7C1002D04D3 /* myProf.txt */; };
+		0B0C22811CF4930400AFC93D /* addWhenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C22801CF4930400AFC93D /* addWhenViewController.swift */; };
 		0B0DC7D51CEC6FCD008FAC8C /* portrait3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DC7D41CEC6FCD008FAC8C /* portrait3.JPG */; };
 		0B1679E11CEB7A3700CAEA74 /* noticeCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1679E01CEB7A3700CAEA74 /* noticeCustomCell.xib */; };
 		0B1679E31CEB7D3D00CAEA74 /* noticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1679E21CEB7D3D00CAEA74 /* noticeTableViewCell.swift */; };
@@ -85,6 +86,7 @@
 		0B071A211CE4C2D0002D04D3 /* posts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = posts.txt; path = ../posts.txt; sourceTree = "<group>"; };
 		0B071A251CE4D6C8002D04D3 /* myPosts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myPosts.txt; sourceTree = "<group>"; };
 		0B071A271CE4D7C1002D04D3 /* myProf.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myProf.txt; sourceTree = "<group>"; };
+		0B0C22801CF4930400AFC93D /* addWhenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addWhenViewController.swift; sourceTree = "<group>"; };
 		0B0DC7D41CEC6FCD008FAC8C /* portrait3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portrait3.JPG; sourceTree = "<group>"; };
 		0B0E68E81CEDDAB700B4E036 /* sampleAca-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sampleAca-Bridging-Header.h"; sourceTree = "<group>"; };
 		0B0E68E91CEDDAB700B4E036 /* sampleAcaTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sampleAcaTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				0BCE1EF31CF17CA70055C737 /* myPageTableViewCell.swift */,
 				0BCE1EF51CF17D2C0055C737 /* myPageCustomCell.xib */,
 				0BCE1EE11CF162CE0055C737 /* AddViewController.swift */,
+				0B0C22801CF4930400AFC93D /* addWhenViewController.swift */,
 				0B071A1F1CE4BFB3002D04D3 /* NoticeViewController.swift */,
 				0B1679E21CEB7D3D00CAEA74 /* noticeTableViewCell.swift */,
 				0B1679E01CEB7A3700CAEA74 /* noticeCustomCell.xib */,
@@ -310,6 +313,7 @@
 				TargetAttributes = {
 					0B0719E91CE4B87E002D04D3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = APCQTKC564;
 					};
 					0B0719FF1CE4B87E002D04D3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -451,6 +455,7 @@
 				0B071A1E1CE4BAAE002D04D3 /* SettingViewController.swift in Sources */,
 				0B071A201CE4BFB3002D04D3 /* NoticeViewController.swift in Sources */,
 				0BCE1EE01CF160D70055C737 /* DetailViewController.swift in Sources */,
+				0B0C22811CF4930400AFC93D /* addWhenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,10 +599,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sampleAca/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihookubo.sampleAca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "sampleAca-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -609,10 +617,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sampleAca/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihookubo.sampleAca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "sampleAca-Bridging-Header.h";
 			};
 			name = Release;
