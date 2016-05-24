@@ -32,6 +32,7 @@ class AddViewController: UIViewController {
     @IBOutlet weak var addPlusMovie: UIImageView!
     @IBOutlet weak var addMovie: UIImageView!
     @IBOutlet weak var openness: UILabel!
+    @IBOutlet weak var addTextView: UITextView!
 
     
     override func viewDidLoad() {
@@ -69,15 +70,25 @@ class AddViewController: UIViewController {
      
         addName.text = add["name"]
         addSelfee.image = UIImage(named: "portrait1.JPG")
-        bottomView.frame = CGRectMake(0, myBoundSize.height-428, 320, 428)
+//        bottomView.frame = CGRectMake(0, myBoundSize.height-428, 320, 428)
         
+        // コメントのTextViewに枠をつける。
+        addTextView.layer.borderWidth = 0.5
+        
+        // 枠の色を設定する。
+        addTextView.layer.borderColor = UIColor.lightGrayColor().CGColor
+        
+        // 枠の角を丸くする。
+        addTextView.layer.cornerRadius = 8
 
     }
     
     
     
     
+    
     @IBAction func tapRecord(sender: UIButton) {
+    // if openSwitch.sendar.on {}どうやる？elseはそのままデータ送信
         
         var recController = UIAlertController(title: "部分修正をかけますか？", message: "後で変更もできます", preferredStyle: .ActionSheet)
         recController.addAction(UIAlertAction(title: "個人名などを公開表示では隠す", style: .Destructive, handler: { action in print("OK!")}))
@@ -90,7 +101,8 @@ class AddViewController: UIViewController {
         }))
         
         
-        presentViewController(recController, animated: true, completion: nil)
+            presentViewController(recController, animated: true, completion: nil)
+        
     }
     
 
