@@ -10,7 +10,12 @@ import UIKit
 
 class AddViewController: UIViewController {
     
-    var add = ["name":"uminonar","selfee":"selfee1.JPG" ]
+    // View動的追加用変数
+    var aView = UIView(frame: CGRectMake(0, 0, 100, 100))
+    let myBoundSize: CGSize = UIScreen.mainScreen().bounds.size
+    //var openFlag = false
+    
+    var add = ["name":"uminonar","selfee":"portrail1.JPG" ]
     
     @IBOutlet weak var addSelfee: UIImageView!
     @IBOutlet weak var addName: UILabel!
@@ -20,6 +25,7 @@ class AddViewController: UIViewController {
     @IBOutlet weak var addImg: UIImageView!
     @IBOutlet weak var addPlusMovie: UIImageView!
     @IBOutlet weak var addMovie: UIImageView!
+    @IBOutlet weak var openness: UILabel!
 
     
     override func viewDidLoad() {
@@ -64,14 +70,18 @@ class AddViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
      
         addName.text = add["name"]
-        addSelfee.image = UIImage(named: "selfee1.JPG")
+        addSelfee.image = UIImage(named: "portrait1.JPG")
+        
+        self.aView = UIView(frame: CGRectMake(0,myBoundSize.height,myBoundSize.width,250))
+        self.aView.backgroundColor = UIColor.grayColor()
+        self.view.addSubview(aView)
         
     }
     
     @IBAction func tapRecord(sender: UIButton) {
         
         var recController = UIAlertController(title: "部分修正をかけますか？", message: "後で変更もできます", preferredStyle: .ActionSheet)
-        recController.addAction(UIAlertAction(title: "個人名など表示上は隠す", style: .Destructive, handler: { action in print("OK!")}))
+        recController.addAction(UIAlertAction(title: "個人名などを公開表示では隠す", style: .Destructive, handler: { action in print("OK!")}))
         
         recController.addAction(UIAlertAction(title: "このまま公開する", style: .Default, handler: { action in print("OK!")}))
         
@@ -83,6 +93,36 @@ class AddViewController: UIViewController {
         
         presentViewController(recController, animated: true, completion: nil)
     }
+    
+
+    @IBAction func addWhenField(sender: UITextField) {
+        print("addwhen")
+        
+       
+        
+        
+        UIView.animateWithDuration(0.3, animations: { () -> Void in
+            
+            
+            self.aView.frame = CGRectMake(0,self.myBoundSize.height-250,self.myBoundSize.width,250)
+            
+            
+            
+        })
+    }
+    
+    @IBAction func addWhere(sender: UITextField) {
+        print("addWhere")
+        
+    }
+    @IBAction func addWho(sender: UITextField) {
+        print("addWho")
+    
+    }
+    @IBAction func addUniversity(sender: UITextField) {
+        print("addUniversity")
+    }
+    
     
 
     

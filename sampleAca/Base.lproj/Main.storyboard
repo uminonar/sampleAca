@@ -357,6 +357,9 @@
                                 <rect key="frame" x="10" y="85" width="299" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="addWhere:" destination="Lcw-0j-WCy" eventType="editingDidEnd" id="rsB-Ex-u2O"/>
+                                </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MbL-lZ-0Z0">
                                 <rect key="frame" x="11" y="238" width="299" height="108"/>
@@ -369,11 +372,17 @@
                                 <rect key="frame" x="9" y="123" width="300" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="addWho:" destination="Lcw-0j-WCy" eventType="editingDidEnd" id="8A1-Fq-uMM"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="いつその問題は起きましたか？" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AMU-dW-UR4">
                                 <rect key="frame" x="74" y="47" width="235" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="addWhenField:" destination="Lcw-0j-WCy" eventType="editingDidBegin" id="eMs-zq-fM9"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="addName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mn-kt-mxN">
                                 <rect key="frame" x="80" y="24" width="76" height="21"/>
@@ -397,6 +406,9 @@
                                 <rect key="frame" x="9" y="161" width="300" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="addUniversity:" destination="Lcw-0j-WCy" eventType="editingDidBegin" id="M2g-pn-2ZV"/>
+                                </connections>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QLs-2A-jO9">
                                 <rect key="frame" x="233" y="214" width="15" height="15"/>
@@ -447,11 +459,12 @@
                         <outlet property="addPlusImg" destination="4dN-1t-RjL" id="nLQ-u1-fW8"/>
                         <outlet property="addPlusMovie" destination="x5y-s4-ccw" id="z9m-vO-K9X"/>
                         <outlet property="addSelfee" destination="sPA-nd-bSr" id="IJW-39-IvK"/>
+                        <outlet property="openness" destination="O5m-HJ-LVw" id="pPk-i2-TFR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LsW-RL-Gd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2504" y="-911"/>
+            <point key="canvasLocation" x="-2740" y="-920"/>
         </scene>
         <!--home-->
         <scene sceneID="wBY-in-08u">
