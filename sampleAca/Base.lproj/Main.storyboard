@@ -433,6 +433,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZnE-8p-r8t">
                                 <rect key="frame" x="212" y="407" width="50" height="50"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="公開" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5m-HJ-LVw">
+                                <rect key="frame" x="80" y="211" width="115" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6L-qo-tEG">
                                 <rect key="frame" x="75" y="530" width="170" height="30"/>
                                 <state key="normal" title="記録する"/>
@@ -440,12 +446,6 @@
                                     <action selector="tapRecord:" destination="Lcw-0j-WCy" eventType="touchUpInside" id="VpM-DN-duV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="公開" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5m-HJ-LVw">
-                                <rect key="frame" x="80" y="211" width="115" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -459,12 +459,13 @@
                         <outlet property="addPlusImg" destination="4dN-1t-RjL" id="nLQ-u1-fW8"/>
                         <outlet property="addPlusMovie" destination="x5y-s4-ccw" id="z9m-vO-K9X"/>
                         <outlet property="addSelfee" destination="sPA-nd-bSr" id="IJW-39-IvK"/>
+                        <outlet property="addView" destination="2ZA-wh-NWN" id="DXc-34-Oaq"/>
                         <outlet property="openness" destination="O5m-HJ-LVw" id="pPk-i2-TFR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LsW-RL-Gd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2740" y="-920"/>
+            <point key="canvasLocation" x="-2827" y="-1180"/>
         </scene>
         <!--home-->
         <scene sceneID="wBY-in-08u">
