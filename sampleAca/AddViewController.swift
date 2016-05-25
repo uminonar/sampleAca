@@ -112,7 +112,7 @@ class AddViewController: UIViewController {
         
         UIView.animateWithDuration(1, animations: { () -> Void in
             
-            self.bottomView.frame = CGRectMake(0, self.myBoundSize.height+212, self.myBoundSize.width, 428)
+            self.bottomView.frame = CGRectMake(0, 333, self.myBoundSize.width, 428)
             
             
             }, completion: { finished in

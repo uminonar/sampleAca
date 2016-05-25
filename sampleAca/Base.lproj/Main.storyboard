@@ -382,7 +382,7 @@
                                 <color key="textColor" red="1" green="0.2349481991" blue="0.1617049921" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="kA7-nU-hdf">
+                            <datePicker hidden="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="kA7-nU-hdf">
                                 <rect key="frame" x="0.0" y="170" width="320" height="200"/>
                                 <date key="date" timeIntervalSinceReferenceDate="485797105.05805999">
                                     <!--2016-05-24 15:38:25 +0000-->
@@ -396,10 +396,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FGP-9d-Pep">
-                                <rect key="frame" x="0.0" y="131" width="320" height="437"/>
+                                <rect key="frame" x="0.0" y="133" width="320" height="439"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="どこの大学の何という学部/学科ですか？" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J9o-9g-QWm">
-                                        <rect key="frame" x="11" y="98" width="300" height="30"/>
+                                        <rect key="frame" x="11" y="100" width="300" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -407,19 +407,19 @@
                                         </connections>
                                     </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="roN-bC-PGg">
-                                        <rect key="frame" x="249" y="142" width="25" height="25"/>
+                                        <rect key="frame" x="249" y="144" width="25" height="25"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QLs-2A-jO9">
-                                        <rect key="frame" x="231" y="147" width="15" height="15"/>
+                                        <rect key="frame" x="231" y="149" width="15" height="15"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZnE-8p-r8t">
-                                        <rect key="frame" x="215" y="322" width="50" height="50"/>
+                                        <rect key="frame" x="215" y="324" width="50" height="50"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x5y-s4-ccw">
-                                        <rect key="frame" x="182" y="334" width="25" height="25"/>
+                                        <rect key="frame" x="182" y="336" width="25" height="25"/>
                                     </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="誰が問題ですか？" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7U2-e6-pZ0">
-                                        <rect key="frame" x="11" y="53" width="300" height="30"/>
+                                        <rect key="frame" x="11" y="55" width="300" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -427,46 +427,43 @@
                                         </connections>
                                     </textField>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yAo-Dw-mBR">
-                                        <rect key="frame" x="15" y="138" width="51" height="31"/>
+                                        <rect key="frame" x="15" y="140" width="51" height="31"/>
                                         <connections>
                                             <action selector="openSwitch:" destination="Lcw-0j-WCy" eventType="valueChanged" id="gHi-i3-75H"/>
                                         </connections>
                                     </switch>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="大丈夫！しっかり記録していきましょう。。具体的にどんな事がありましたか？" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Y5w-fa-iXX">
-                                        <rect key="frame" x="11" y="182" width="301" height="103"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="どこでその問題は起きましたか？" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QW7-aG-r1M">
-                                        <rect key="frame" x="12" y="8" width="299" height="30"/>
+                                        <rect key="frame" x="12" y="10" width="299" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
                                             <action selector="addWhere:" destination="Lcw-0j-WCy" eventType="editingDidEnd" id="rsB-Ex-u2O"/>
                                         </connections>
                                     </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdh-uI-vqT">
+                                        <rect key="frame" x="76" y="324" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4dN-1t-RjL">
+                                        <rect key="frame" x="43" y="336" width="25" height="25"/>
+                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="公開" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5m-HJ-LVw">
-                                        <rect key="frame" x="72" y="146" width="115" height="21"/>
+                                        <rect key="frame" x="72" y="145" width="115" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdh-uI-vqT">
-                                        <rect key="frame" x="76" y="322" width="50" height="50"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4dN-1t-RjL">
-                                        <rect key="frame" x="43" y="334" width="25" height="25"/>
-                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="大丈夫！しっかり記録していきましょう。。具体的にどんな事がありましたか？" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Y5w-fa-iXX">
+                                        <rect key="frame" x="11" y="187" width="301" height="103"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="pnB-d1-mUg" firstAttribute="top" secondItem="kA7-nU-hdf" secondAttribute="bottom" constant="212" id="QQa-jL-0ey"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9wG-rX-x5V">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Uyd-BE-Wfj">
