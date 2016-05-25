@@ -43,9 +43,9 @@ class AddViewController: UIViewController {
         let plusImage = plus.imageWithSize(CGSizeMake(15, 15))
         addPlus.image = plusImage
         
-        let audio = FAKFontAwesome.fileAudioOIconWithSize(25)
-        let audioImg = audio.imageWithSize(CGSizeMake(25, 25))
-        addAudio.image = audioImg
+        let mike = FAKFontAwesome.microphoneIconWithSize(25)
+        let mikeImg = mike.imageWithSize(CGSizeMake(25, 25))
+        addAudio.image = mikeImg
         
         let plus2 = FAKFontAwesome.plusIconWithSize(25)
         let plus2Img = plus2.imageWithSize(CGSizeMake(25, 25))
